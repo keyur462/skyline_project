@@ -1,0 +1,11 @@
+Skyline Polygon Similarity Search Results
+----------------------------------------
+Total polygons  : 120
+Data polygons   : 96
+Query polygons  : 24
+K               : 10
+M               : 16
+efConstruction  : 200
+efSearch        : 200
+Threads         : 4
+Recall@10      : 0.1667
