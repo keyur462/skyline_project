@@ -111,7 +111,6 @@ class quadtree:
         plt.title("Quadtree with Data Points")
         plt.show()
 
-    # convert the quad tree cells into a list of polyogns
     def convertQTToPolys(self):
         wkts=[]
         for i in range(len(self.bounding_boxes)):
