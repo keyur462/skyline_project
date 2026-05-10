@@ -52,6 +52,3 @@ def convertWKTListToVectorStrList(g, inputWKTs, end, start=0, cellSelect=1, arg=
         vectorList.append(convert2DVectorToStr(g.raster))
         g.resetRaster()
     return vectorList
-
-# polygpnVectors = convertWKTListToVectorStrList(wktList, start=0, end=800, rowNum=10, colNum=10, maxPoly=max_poly)
-
