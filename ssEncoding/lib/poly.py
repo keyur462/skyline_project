@@ -52,3 +52,4 @@ def convertWKTListToVectorStrList(g, inputWKTs, end, start=0, cellSelect=1, arg=
         vectorList.append(convert2DVectorToStr(g.raster))
         g.resetRaster()
     return vectorList
+
